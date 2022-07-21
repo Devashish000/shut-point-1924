@@ -1,0 +1,137 @@
+#log{
+    width: 70%;
+    height: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.find{
+    width: 35%;
+    height: 35px;
+    display: flex;
+}
+.find img{
+    width: 40%;
+    height: 35px;
+}
+.find p{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 0px 15px;
+}
+#parking{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+#parking img{
+    width: 28%;
+    height: 250px;
+    margin-left: 35%;
+}
+#parking h1{
+    font-size: 40px;
+    margin-left: 10%;
+}
+#parking p{
+    margin-left: 7%;
+    font-size: 19px;
+    margin-top: -7px;
+    margin-bottom: -0px;
+}
+#parking p1{
+    margin-left: 40%;
+    font-size: 19px;
+    margin-top: -5%;
+}
+#parking button{
+    width: 180px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 20px;
+    color: orange;
+    background-color: rgb(235, 209, 199);
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#partner{
+    width: 65%;
+    height: 350px;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+#partner .part{
+    width: 48%;
+    height: 350px;
+}
+#partner .part img{
+    width: 100%;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+}
+#partner .part p{
+    color: rgb(110, 92, 92);
+}
+#small{
+    width: 23%;
+    height: 40px;
+    margin-left: 53%;
+    display: flex;
+    margin-top: -3%;
+    justify-content: space-between;
+}
+#small .box{
+    width: 20%;
+    height: 38px;
+    display: flex;
+}
+#small .box img{
+    width: 100%;
+    height: 26px;
+}
+#net{
+    width: 65%;
+    height: 150px;
+    margin: auto;
+    margin-top: 80px;
+}
+#net .inc p{
+    color: rgb(110, 92, 92);
+}
+#model{
+    width: 67%;
+    height: 500px;
+    margin: auto;
+    margin-top: -15px;
+}
+#model img{
+    width: 100%;
+    height: 500px;
+}
+#value{
+    width: 67%;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+}
+#value p{
+    color: rgb(110, 92, 92);
+}
+#in{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+#in .on{
+    width: 32%;
+    height: 300px;
+    border: 1px solid blue;
+}
