@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
+    <title>Sign up</title>
     <style>
         #log{
             width: 100%;
@@ -18,8 +18,9 @@
             background-color: rgba(255, 231, 196, 0.836);
         }
         #log .in{
-            width: 45%;
+            width: 30%;
             height: 100%;
+            margin-right: 17%;
         }
         .n img{
             width: 150px;
@@ -36,33 +37,26 @@
             height: 100%;
             margin-top: -25px;
         }
-        .in h1 , h2 ,a{
-            margin-right: 50px;
-            text-align: center;
-            margin-top: 20%;
-        }
         .in h1{
             font-size: 28px;
-        }
-        .in a{
-            color: blue;
-        }
-        .in h2 ,a{
-            text-decoration: none;
-            font-size: 20px;
-            margin-top: -20px;
+            text-align: center;
         }
         .in input{
             background-color: rgb(231, 227, 227);
-            width: 70%;
-            height: 50px;
+            width: 90%;
+            height: 45px;
             border-radius: 5px;
             margin-top: -10px;
             border: none;
         }
+        .in .check{
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+        }
         .in button{
             margin-top: 15px;
-            width: 70%;
+            width: 90%;
             height: 45px;
             color: orange;
             border-radius: 5px;
@@ -70,8 +64,6 @@
             border: none;
             background-color: rgba(255, 231, 196, 0.836);
         }
-        
-
     </style>
 </head>
 <body>
@@ -83,11 +75,18 @@
             </div>
         </div>
         <div class="in">
-            <h1>Log in to AirGarage</h1>
-            <h2>Or <a href="signup.html">signup</a> </h2>
-            <p>Email or Phone Number</p>
-            <input type="text" placeholder="Email or Phone"/>
-            <button>GET VERIFICATION CODE</button>
+            <h1>Sign up for AirGarage</h1>
+            <p>First name</p>
+            <input type="text" placeholder="First name"/>
+            <p>Last name</p>
+            <input type="text" placeholder="Last name"/>
+            <p>Email</p>
+            <input type="text" placeholder="Email"/>
+            <p>Password</p>
+            <input type="text" placeholder="Password"/>
+            <p>I agree to the:</p>
+            <input class="check" type="checkbox" checked="checked" name="sameadr"> Lot Owner <a href="">Service Agreement</a>
+            <button>SUBMIT</button>
         </div>
     </div>
     
